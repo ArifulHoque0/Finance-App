@@ -29,7 +29,7 @@ export default function Table({ rows }) {
 							</th>
 							{tr.cost && (
 								<td className={TD + " text-red-main"}>
-									-{Number(tr.cost)} USD
+									-{Number(tr.cost)} usd
 								</td>
 							)}
 							{tr.amount && (
