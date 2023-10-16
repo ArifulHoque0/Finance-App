@@ -121,7 +121,7 @@ export default function ExpenseForm() {
 						</label>
 						<input
 							type="number"
-							placeholder="0.0 Yen"
+							placeholder="0.0 USD"
 							name="cost"
 							value={Fields.cost}
 							className={`${INPUT} ${
