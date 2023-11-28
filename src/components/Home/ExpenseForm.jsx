@@ -79,7 +79,7 @@ export default function ExpenseForm() {
 			});
 			setFields({ ...Fields, cost: 0 });
 		}
-		if (Fields.description.length > 25) {
+		if (Fields.description.length > 50) {
 			setErrors({ ...Errors, description: true });
 			flag = 1;
 			Swal.fire({

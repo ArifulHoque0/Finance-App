@@ -43,13 +43,15 @@ const initialState = {
 	expenses: JSON.parse(localStorage.getItem("expenses")) || [],
 	categories: [
 		"General",
-		"Fuel",
+		"Rent",
+		"Bills",
 		"Grocery",
-		"Transport",
-		"Fun",
-		"Shopping",
-		"Travel",
+		"Fun + Shopping",
+		"Transportation",
 		"Food",
+		"Miscellaneous",
+		"Saveing",
+		"Other"
 	],
 };
 
