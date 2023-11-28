@@ -50,7 +50,7 @@ const initialState = {
 		"Transportation",
 		"Food",
 		"Miscellaneous",
-		"Saveing",
+		"Saving",
 		"Other"
 	],
 };
